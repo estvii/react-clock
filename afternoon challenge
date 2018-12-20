@@ -1,0 +1,15 @@
+Convert our <Clock> component from being a functional component to a class component.
+
+Beast Mode
+Now that we can track state, use both state and lifecycle methods to modify our code making our clock hands keep up with the current time without having to refresh our page.
+//Hint setInterval() and clearInterval()
+
+Beast Mode++
+Ok so we have our timezone down pat. Now figure out how you can render 3 different clocks use 3 different timezones. “Australia/Sydney”, “American/New_York”, and “Asia/Tokyo”
+
+Beast Mode+++
+If given an array of timezones as a state property render out a clock for each programatically.
+
+state = {
+    timezones: [“Australia/Sydney”, “American/New_York”, and “Asia/Tokyo”]
+}
